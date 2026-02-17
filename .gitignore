@@ -1,0 +1,17 @@
+
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Icarus Verilog simulation outputs
+*.vvp
+*.vcd
+
+# cocotb simulation temporary build folder
+sim_build/
+
+# Optional editor files (VSCode, etc.)
+.vscode/
+*.swp
+
