@@ -1,4 +1,4 @@
-# 📘 Cocotb Tutorial: 4-Bit Adder Verification
+#  Cocotb Tutorial: 4-Bit Adder Verification
 
 ## Overview
 
@@ -17,7 +17,7 @@ This project demonstrates Python-based hardware verification of a 4-bit Verilog 
 
 A simple 4-bit adder.
 
-RTL File: `RTL/adder.v`
+[RTL File](./RTL/adder.v): `RTL/adder.v`
 
 ### Interface
 
@@ -33,7 +33,7 @@ The adder supports values from **0 to 30**.
 
 ##  Testbench Description
 
- Testbench File: `Testbench/test_adder.py`
+ [Testbench File](./Testbench/test_adder.py): `Testbench/test_adder.py`
 
 The testbench is written in Python using cocotb.
 
@@ -105,7 +105,7 @@ vvp -M <PATH>/site-packages/cocotb/libs \
 
 
 
-# 🛠️ Cocotb Makefile Explanation
+# Cocotb Makefile Explanation
 
 This [Makefile](./Makefile) is used to run cocotb simulations for the 4-bit adder.
 
